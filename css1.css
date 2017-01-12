@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+*{
+	font-family: 'Lato', sans-serif;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+header{
+	padding: 1em;
+	background-color: #ccc; 
+	margin-bottom: 1em;
+}
+
+.italic{
+	font-style: italic;
+}
+.perfil img{
+	display: block;
+	width: 200px;
+	margin: 0 auto;
+	border-radius: 50%;
+	box-shadow: #A2A2A2 4px 4px 14px;
+
+}
+
+.infoPersonal{
+	text-align: center;
+}
+.bajada{
+	vertical-align: top;
+}
+.imagenFull{
+	margin-bottom: 2em;
+}
+.imagenFull img{
+	width: 100%;
+}
+.titulo{
+	color: #ffffff;
+	margin-top: -3em;
+	text-align: center;
+}
+.content{
+	margin-top: 5em;
+	padding: 2em;
+}
+.gt{
+	vertical-align: top;
+	font-size: 400%;
+	color: #19ac46;
+	display: inline-block;
+	width: 10%;
+}
+.detalle{
+	font-size: 125%;
+	display: inline-block;
+	text-align: justify;
+	width: 80%;	
+}
+.proyectos .imagen{
+	text-align: justify;
+	display: inline-block;
+	max-width: 200px;
+	width: 40%;		
+	vertical-align: top;
+	padding: 1em;
+	box-sizing: border-box;
+}
+.proyectos .imagen img{
+	width: 100%;
+}
+.proyectos .detalleProyecto{
+	text-align: justify;
+	display: inline-block;
+	width: 59%;		
+	vertical-align: top;
+	padding: 1em;
+	box-sizing: border-box;
+}
+@media screen and (max-width: 414px) {
+	.proyectos .imagen{
+		width: 100%
+	}
+	.proyectos .detalleProyecto{
+		width: 100%;
+	}
+	.gt{
+		font-size: 200%;
+	}
+}
